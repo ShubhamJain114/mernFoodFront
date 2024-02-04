@@ -1,0 +1,177 @@
+/* 
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(0, 0,0, 0.6);
+   height: 10vh; 
+   color: white; 
+ 
+padding: 1% 2%;
+}
+
+#navbar .nav-c{
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  color: white; 
+}
+ .nav ul{
+    display: flex;
+ 
+    color: white; 
+
+}
+.nav ul li a{
+    color: white; 
+}
+.nav ul li{
+    margin-right: 3%;
+}
+ .in-side{
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    color: white; 
+}
+#navbar .nav {
+width: 90%;
+}
+ .logo{
+    color: white; 
+}
+
+.l-s-btn{
+    width: 10%;
+    background-color: green;
+}
+.l-s-btn a{
+  
+margin-right:15% ;
+}
+
+.c-log-btn{
+
+} */
+
+
+
+nav {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+/* background: green; */
+/* padding: 12px; */
+}
+
+nav .logo {
+    display: flex;
+    width: 7%;
+    align-items: center;
+
+}
+
+.title {
+
+    font-weight: bold;
+    font-size: 167%;
+    font-style: italic;
+    margin-left: 0.2rem;
+}
+
+nav .logo img {
+    height: 100%;
+    width: 100%;
+    margin-top: 8px;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 55%;
+    align-items: center;
+    margin-right: 4%;
+
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 115%;
+    cursor: pointer;
+    
+}
+nav ul li a:hover{
+    color: #363434;
+    font-size: 1.1rem;
+    
+}
+ nav ul li i:hover{
+    color: #560707;
+    font-size: 1.1rem;
+}
+nav ul li link {
+    text-decoration: none;
+    /* font-size: 10%; */
+    /* color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 252);
+    
+}
+
+i.nav-icon {
+    display: none;
+}
+
+.nav-c {
+    color: black;
+}
+
+nav ul li link i {
+    color: black;
+
+    font-size: 1.5rem;
+}
+.menu-btn {
+    display: none;
+}
+
+.button {
+    background: linear-gradient(45deg, #f2f2f2, #eab5b5);
+    padding: 12% 27%;
+    border-radius: 16%;
+    border: none;
+    font-size: 98%;
+    color: black;
+}
+.logout-btn{
+    padding: 1% 2% !important; 
+    cursor: pointer;
+}
+.logout-btn{
+    padding: 1% 2% !important; 
+    cursor: pointer;
+}
+.logout-btn:hover{
+    background: linear-gradient(45deg, #f14f4f, #ffffff);
+}
+.logout-btn:active{
+    transform: translate(0 ,2px);
+}
+.color{
+   
+    font-size: 1.4rem;
+}
+.cart-num{
+    border-radius: 50%;
+    color: white;
+    font-size: 1.1rem;
+    padding: 2px 6px;
+    background-color: rosybrown;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    transform: translate(-3px, -10px);
+}

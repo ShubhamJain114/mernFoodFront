@@ -1,0 +1,142 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+
+.table{
+    width: 100%;
+}
+#cart{
+    padding: 40px 80px;
+    max-height: 43vh;
+    overflow: auto;
+    height: 43vh;
+}
+#cart table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+
+}
+
+#cart table img {
+    width: 70px;
+
+}
+
+#cart table td:nth-child(1) {
+    width: 100px;
+    text-align: center;
+
+}
+
+#cart table td:nth-child(2),
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6) {
+    width: 150px;
+    text-align: center;
+
+}
+
+#cart table td:nth-child(3) {
+    width: 250px;
+    text-align: center;
+
+}
+
+#cart table td:nth-child(5) input {
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+
+}
+
+#cart table thead {
+    border: 1px solid #e2e9e1;
+    border-left: none;
+    border-right: none;
+
+}
+
+#cart table thead td {
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 18px 0;
+
+}
+
+#cart table tbody tr td {
+    padding-top: 15px;
+}
+
+#cart table tbody td {
+    font-size: 13px;
+}
+#cart table td button {
+    background-color: white;
+    /* margin-left: 96%; */
+    border: none;
+    /* margin-top: 18px; */
+    font-size: 1rem;
+
+}
+/* ----------subTotal--------- */
+
+#sub-total h3 {
+    padding-bottom: 15px;
+
+}
+
+#sub-total button {
+    /* background-color: #088178; */
+    color: white;
+    padding: 12px 20px;
+    box-shadow: 4px 4px 2px 2px #4b4343;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer; 
+    background: linear-gradient(45deg, #e51c0e, #3b0e0e);
+ 
+}
+#sub-total button:hover {
+   
+    background: linear-gradient(45deg,  #3b0e0e, #e51c0e);
+ 
+}
+#sub-total button:active {
+   
+  transform: translate(2px ,2px);
+ 
+}
+#sub-total {
+    width: 50%;
+    margin-bottom: 20px;
+    border: 1px solid #e2e9e1;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+#sub-total table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+#sub-total table td {
+    width: 50%;
+    border: 1px solid #e2e9e1;
+    font-size: 13px;
+    padding: 10px;
+}
+.cart-mt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 87%;
+
+}
+.mt{
+    font-size: 3rem;
+    color: rgb(125, 0, 0);
+}

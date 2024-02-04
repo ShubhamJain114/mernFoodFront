@@ -1,0 +1,22 @@
+.about{
+ width: 100%;
+ height: 100vh;
+}
+.about img{
+    height: 100%;
+    width: 100%;
+   
+}
+.about-des{
+    position: absolute;
+    top: 10%;
+    padding: 4%;
+    filter: drop-shadow(2px 2px 8px rgb(0, 0, 0));
+
+}
+.about-des h1{
+padding: 2%;
+}
+.about-des p{
+    font-size: 1.2rem;
+}

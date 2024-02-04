@@ -1,0 +1,39 @@
+.order-heading{
+    display: flex;
+    justify-content: center;
+    margin: 2% 0;
+}
+
+.order-heading h1{
+    color: #8a0000;
+}
+.nav-con{
+    background-image: linear-gradient(28deg, #8a0000, #ffc6c6);
+    height: 12vh;
+
+}
+
+.message{
+font-size: 3rem;
+color: rgb(182, 2, 2);
+margin-top: 120px;
+}
+.myOrderContainer{
+ padding: 0 3%;
+}
+.box{
+
+}
+.order-body{
+    background-color: #dae3e3;
+    height: 22vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 0;
+    margin: 4%;
+    text-align: center
+}
+.order-body h5{
+    font-size: 1.5rem;
+}
